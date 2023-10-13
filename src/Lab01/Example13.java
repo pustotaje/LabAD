@@ -4,7 +4,6 @@ import java.util.Scanner;
 
 public class Example13 {
     public static void main(String[] args) {
-        int res = 0;
         Scanner in = new Scanner(System.in);
 
         System.out.println("Input first: ");
@@ -12,7 +11,7 @@ public class Example13 {
 
         System.out.println("Input second: ");
         int second = in.nextInt();
-        res = first + second;
+        int res = first + second;
 
         System.out.printf("Result is %d",res);
         in.close();
