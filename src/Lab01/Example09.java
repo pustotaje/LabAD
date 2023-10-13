@@ -12,7 +12,7 @@ public class Example09 {
         System.out.println("Type amount days in Month: ");
         int daysamount = in.nextInt();
 
-        System.out.printf("In %s %d days\n",month, daysamount);
+        System.out.printf("In %s %d days",month, daysamount);
         in.close();
     }
 }

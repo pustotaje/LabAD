@@ -4,7 +4,6 @@ import java.util.Scanner;
 
 public class Example10 {
     public static void main(String[] args) {
-        int res = 0;
         Scanner in = new Scanner(System.in);
 
         System.out.println("Input current year: ");
@@ -12,9 +11,9 @@ public class Example10 {
 
         System.out.println("Input your birth year: ");
         int birthyear = in.nextInt();
-        res = currentyear - birthyear;
+        int res = currentyear - birthyear;
 
-        System.out.printf("Your age is %d\n",res);
+        System.out.printf("Your age is %d",res);
         in.close();
     }
 }

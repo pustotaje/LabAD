@@ -13,7 +13,7 @@ public class Example12 {
         int age = in.nextInt();
         int res = year - age;
 
-        System.out.printf("Your birth year is %d\n", res);
+        System.out.printf("Your birth year is %d", res);
         in.close();
     }
 }

@@ -15,7 +15,7 @@ public class Example15 {
         int res = first + second;
         int res2 = first - second;
 
-        System.out.printf("Summ is %d, subtraction is %d\n",res, res2);
+        System.out.printf("Summ is %d, subtraction is %d",res, res2);
         in.close();
     }
 }

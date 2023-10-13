@@ -16,7 +16,7 @@ public class Example11 {
         int birthyear = in.nextInt();
         int res = year - birthyear;
 
-        System.out.printf("Your name is %s and age is %d\n", name, res);
+        System.out.printf("Your name is %s and age is %d", name, res);
         in.close();
     }
 }

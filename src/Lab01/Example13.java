@@ -14,7 +14,7 @@ public class Example13 {
         int second = in.nextInt();
         res = first + second;
 
-        System.out.printf("Result is %d\n",res);
+        System.out.printf("Result is %d",res);
         in.close();
     }
 }

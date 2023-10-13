@@ -4,7 +4,6 @@ import java.util.Scanner;
 
 public class Example14 {
     public static void main(String[] args) {
-        int res = 0;
         Scanner in = new Scanner(System.in);
 
         System.out.println("Input: ");
@@ -14,7 +13,7 @@ public class Example14 {
         int odin = inp + 1;
         int kv = (inp + min + odin)*(inp + min + odin);
 
-        System.out.printf("Result is %d,%d,%d,%d.\n",min,inp,odin,kv);
+        System.out.printf("Result is %d,%d,%d,%d.",min,inp,odin,kv);
         in.close();
     }
 }
